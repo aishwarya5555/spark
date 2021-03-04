@@ -1,0 +1,6 @@
+FizzBuzz
+1. spark2-submit --class "scala.FizzBuzz" --master yarn spark-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar user/edureka_1142691/spark-demo
+2. hdfs dfs -cat user/edureka_1142691/spark-demo/* 
+
+Line in Dataset
+1. spark2-submit --class "scala.LinesInDataSet" --master yarn spark-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar
